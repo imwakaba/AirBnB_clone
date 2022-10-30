@@ -1,7 +1,15 @@
 #!/usr/bin/python3
-"""Module that inherits from BaseModel"""
+'''
+Defines the Amenity class
+'''
 from models.base_model import BaseModel
 
+
 class Amenity(BaseModel):
-    """class the represent Amenity"""
-    name = ""
+    '''Amenity for Hbnb application
+
+    Attributes:
+        name (str): name of the Amenity
+    '''
+
+    name = ''

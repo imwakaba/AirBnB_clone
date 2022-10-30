@@ -1,15 +1,18 @@
-footer{
-	background-color: white;
-	position: absolute;
-	bottom: 0;
-	height: 60px;
-	width: 100%;
-	text-align: center;
-	border-top: 1px solid #CCCCCC;
+footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
+    height: 3em;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #CCCCCC;
 }
 
-footer p{
-	height: 60px;
-	line-height: 60px;
-	margin: 0;
+footer p
+{
+    margin-top: 1em;
 }

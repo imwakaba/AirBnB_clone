@@ -1,18 +1,18 @@
-footer {
-	display: flex;
-	border-top: 1px solid #CCCCCC;
-	height: 60px;
-	width: 100%;
-	background-color: white;
-	align-items: stretch;
-	flex-direction: row;
-	justify-content: center;
-	bottom: 0;
-	position: fixed;
+footer
+{
+    position: fixed;
+    bottom: 0;
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #CCCCCC;
 }
 
-.footText {
-	text-align: center;
-	display: flex;
-	align-items: center;
+footer p
+{
+    margin-top: 23px;
 }

@@ -1,10 +1,21 @@
 #!/usr/bin/python3
-"""Defines a user module"""
+'''
+Defines the User class
+'''
 from models.base_model import BaseModel
 
+
 class User(BaseModel):
-    """Defines attributes for user creation"""
-    email = ""
-    password = ""
-    first_name = ""
-    last_name = ""
+    '''Users for the AirBnB clone
+
+    Attributes:
+        email (str): the email of the User
+        password (str): the password of the User
+        first_name (str): the User's first name
+        last_name (str): the User's last name
+    '''
+
+    email = ''
+    password = ''
+    first_name = ''
+    last_name = ''

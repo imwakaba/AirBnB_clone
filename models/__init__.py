@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""__init__ magic method for models directory"""
+'''
+Create FileStorage instance for application
+'''
 from models.engine.file_storage import FileStorage
 
 storage = FileStorage()

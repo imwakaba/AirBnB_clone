@@ -1,8 +1,17 @@
 #!/usr/bin/python3
-"""Module that Define city class"""
+'''
+Defines the City class
+'''
 from models.base_model import BaseModel
 
+
 class City(BaseModel):
-    """defines city to look for"""
-    state_id = ""
-    name = ""
+    '''Cities for Hbnb application
+
+    Attributes:
+    state_id (str): will be State.id
+        name (str): name of the States
+    '''
+
+    state_id = ''
+    name = ''
